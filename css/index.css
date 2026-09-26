@@ -50,10 +50,7 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 40px;
-    background-image: url(../img/hero-img.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+
 }
 
 .hero-img{
