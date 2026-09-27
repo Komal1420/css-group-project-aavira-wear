@@ -137,12 +137,16 @@ nav a.active {
     background-color: #555;
 }
 
+<<<<<<< HEAD
+=======
+/* FOOTER */
+
+>>>>>>> ca4d76b (Added intial commit)
 footer {
-    background-color: #222 !important;
-    color: white !important;
+    background-color: #222;
+    color: white;
     margin-top: 60px;
     text-align: center;
-    width: 100%;
 }
 
 .footer-content {
@@ -155,26 +159,29 @@ footer {
     text-align: center;
 }
 
-.footer-content h2,
+.footer-content h2 {
+    margin-bottom: 10px;
+}
+
 .footer-content h3 {
-    color: white !important;
+    margin-top: 15px;
     margin-bottom: 10px;
 }
 
 .footer-content p {
-    color: #ccc !important;
+    color: #ccc;
     margin-bottom: 8px;
 }
 
 .footer-content a {
     display: block;
-    color: #ccc !important;
+    color: #ccc;
     text-decoration: none;
     margin-bottom: 8px;
 }
 
 .footer-content a:hover {
-    color: #ffb6c1 !important;
+    color: #ffb6c1;
 }
 
 .copyright {
@@ -182,9 +189,15 @@ footer {
     text-align: center;
     border-top: 1px solid #444;
     padding: 18px;
-    color: #aaa !important;
+    color: #aaa;
 }
 
+<<<<<<< HEAD
+=======
+   
+/* RESPONSIVE */
+
+>>>>>>> ca4d76b (Added intial commit)
 @media (max-width: 900px) {
 
     .products {
