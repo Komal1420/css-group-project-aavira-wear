@@ -4,7 +4,7 @@
  <img src="img/clothshop logo.png" alt="project logo" width="150">
  </p>
 
-##Project Overview
+## Project Overview
 
 The website provides different clothing collections for **Women, Men, and Kids**. Users can explore products, view product details, and navigate through different pages such as About, Login, and Registration.
 The main purpose of this project is to create a user-friendly and visually attractive clothing shopping website using basic web technologies.
@@ -59,11 +59,11 @@ The Men's page displays different men's clothing products such as:
 ## Project Screenshots
 
  <p align="centre">
- <img src="./img/women1.png" alt="women" width="150">
+ <img src="./img/women1.png" alt="women" width="250">
  </p>
 
 <p align="centre">
- <img src="img/women3.png" alt="women3" width="150">
+ <img src="img/women3.png" alt="women3" width="250">
  </p>
 
 ## Features
