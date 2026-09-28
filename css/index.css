@@ -1,39 +1,3 @@
-.logo {
-    text-decoration: none;
-    font-size: 28px;
-}
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
-    object-fit: cover;
-    font-weight: bold;
-    color: #222222;
-    letter-spacing: 1px;
-}
-.logo span {
-    font-size: 18px;
-    color: #b06b35;
-    margin-left: 4px;
-    margin-right: 25px;
-}
-.nav-links {
-    margin-left: 180px;
-    display: flex;
-    gap: 30px;
-    padding: 11px;
-}
-.nav-links a {
-    margin: 2px;
-    text-decoration: none;
-    color: #333333;
-    font-size: 16px;
-}
-.nav-links a:hover {
-    color: #b06b35;
-}
 .main-img {
      width: 100%;
     max-width: 100%;
@@ -66,3 +30,377 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+.categories {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.category-card {
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.category-image {
+    width: 100%;
+    height: 300px;
+}
+
+.category-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.category-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.category-info h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.category-info p {
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.category-info button {
+    padding: 10px 25px;
+    border: none;
+    background-color: #222;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.category-info button:hover {
+    background-color: #555;
+}
+
+
+/* =========================================
+   TABLET RESPONSIVE
+   769px - 1024px
+========================================= */
+
+@media (max-width: 1024px) {
+
+    /* Main Image */
+
+    .main-img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+
+    /* Hero */
+
+    .hero {
+        width: 100%;
+        height: auto;
+        min-height: 400px;
+
+        padding: 40px 5%;
+        box-sizing: border-box;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        gap: 25px;
+
+        background-size: cover;
+        background-position: center;
+    }
+
+    .hero-content {
+        width: 50%;
+    }
+
+    .hero-content h1 {
+        font-size: 45px;
+        line-height: 1.2;
+    }
+
+    .hero-img {
+        width: 100%;
+        max-width: 450px;
+        height: auto;
+        object-fit: cover;
+    }
+
+
+    /* Categories */
+
+    .categories {
+        width: 90%;
+        margin: 40px auto;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        gap: 25px;
+    }
+
+    .category-card {
+        width: 100%;
+    }
+
+    .category-image {
+        width: 100%;
+        height: 260px;
+    }
+
+    .category-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .category-info {
+        padding: 18px;
+    }
+
+    .category-info h2 {
+        font-size: 23px;
+    }
+
+    .category-info p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .category-info button {
+        padding: 10px 22px;
+    }
+
+
+    /* Navbar */
+
+    .navbar {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+        border: none;
+        background: none;
+        font-size: 30px;
+        cursor: pointer;
+    }
+}
+
+
+/* =========================================
+   MOBILE RESPONSIVE
+   0px - 768px
+========================================= */
+
+@media (max-width: 768px) {
+
+    /* Main Image */
+
+    .main-img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin-top: 15px;
+    }
+
+
+    /* Hero */
+
+    .hero {
+        width: 100%;
+        height: auto;
+        min-height: 500px;
+
+        padding: 35px 5%;
+
+        box-sizing: border-box;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+
+        gap: 25px;
+
+        background-size: cover;
+        background-position: center;
+    }
+
+    .hero-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 38px;
+        line-height: 1.2;
+        margin: 0;
+    }
+
+    .hero-img {
+        width: 90%;
+        max-width: 400px;
+        height: auto;
+        object-fit: cover;
+    }
+
+
+    /* Categories */
+
+    .categories {
+        width: 90%;
+        margin: 35px auto;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 25px;
+    }
+
+    .category-card {
+        width: 100%;
+        max-width: 380px;
+    }
+
+    .category-image {
+        width: 100%;
+        height: 280px;
+    }
+
+    .category-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .category-info {
+        padding: 18px;
+        text-align: center;
+    }
+
+    .category-info h2 {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+
+    .category-info p {
+        font-size: 15px;
+        line-height: 1.5;
+        margin-bottom: 18px;
+    }
+
+    .category-info button {
+        padding: 10px 24px;
+        font-size: 15px;
+    }
+
+
+    /* Navbar */
+
+    .navbar {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+        font-size: 28px;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+
+    .main-img {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .hero {
+        min-height: 450px;
+
+        padding: 25px 4%;
+
+        gap: 20px;
+
+        background-position: center;
+    }
+
+    .hero-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    .hero-img {
+        width: 95%;
+        max-width: 350px;
+    }
+
+
+    .categories {
+        width: 92%;
+        margin: 30px auto;
+
+        gap: 20px;
+    }
+
+    .category-card {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .category-image {
+        height: 230px;
+    }
+
+    .category-info {
+        padding: 15px;
+    }
+
+    .category-info h2 {
+        font-size: 21px;
+    }
+
+    .category-info p {
+        font-size: 14px;
+        line-height: 1.4;
+        margin-bottom: 15px;
+    }
+
+    .category-info button {
+        padding: 9px 20px;
+        font-size: 14px;
+    }
+
+
+    .menu-btn {
+        font-size: 26px;
+    }
+}
