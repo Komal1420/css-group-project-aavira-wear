@@ -1,6 +1,6 @@
 # AAVIRA WEAR – Cloth Shop
 
- <p align="centre">
+ <p align="center">
  <img src="img/clothshop logo.png" alt="project logo" width="150">
  </p>
 
