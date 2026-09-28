@@ -1,16 +1,70 @@
 *{
     margin: 0%;
     padding: 0%;
-    font-family:'Times New Roman', Times, serif
+    font-family:Arial, sans-serif;
 }
 
-body{
-    background-color: #fac7a7;
-    color: #121212;
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    
+}
+.header{
+    background-color: #e6e4e5;
+    color: black;
+    padding: 18px 8%;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    box-shadow: 1px 1px 20px rgb(51, 51, 51);
 }
 
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    object-fit: cover;
+    font-weight: bold;
+    color: #222222;
+    letter-spacing: 1px;
+}
+.logo span {
+    font-size: 18px;
+    color: #b06b35;
+    margin-left: 4px;
+    margin-right: 25px;
+}
+
+.menu-btn {
+    display: none;
+    border: none;
+    background: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+.nav-links {
+    margin-left: 180px;
+    display: flex;
+    gap: 30px;
+    padding: 11px;
+}
+.nav-links a {
+    margin: 2px;
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+}
+.nav-links a:hover {
+    color: #b06b35;
+}
 .footer{
-    background-color: #f882b7;
+    background-color: #e6e4e5;
     color: #121212;
     margin-top: 40px;
 }
@@ -46,9 +100,10 @@ body{
 }
 
 .footer-content a{
-    display: inline-block;
-    color: white;
+    display:block;
+    color: rgb(6, 6, 6);
     text-decoration: none;
+    padding: 3px;
 }
 
 .footer-content a :hover{
@@ -56,5 +111,219 @@ body{
 }
 
 .copyright p{
-    font-size: 14px;
+    font-size: 12px;
+}
+
+.social-media img{
+    height: 20px;
+    width: 20px;
+    margin: 4px;
+
+}
+
+
+@media (max-width: 1024px) {
+
+    .header {
+        padding: 15px 5%;
+        justify-content: space-between;
+    }
+
+    .logo1 {
+        height: 60px;
+        width: 60px;
+        margin-left: 10px;
+    }
+
+    .logo {
+        font-size: 24px;
+    }
+
+    .logo span {
+        font-size: 16px;
+        margin-right: 0;
+    }
+
+    .menu-btn {
+        display: block;
+        font-size: 30px;
+        margin-left: auto;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .footer-content {
+        width: 90%;
+        padding: 35px 0;
+        gap: 25px;
+    }
+
+    .footer-content > div {
+        width: 30%;
+    }
+
+    .footer-content h2 {
+        font-size: 23px;
+    }
+
+    .footer-content h3 {
+        font-size: 18px;
+    }
+
+    .footer-content p,
+    .footer-content a {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+
+    .header {
+        width: 100%;
+        padding: 12px 5%;
+        box-sizing: border-box;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo1 {
+        height: 50px;
+        width: 50px;
+        margin-left: 0;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .logo span {
+        font-size: 14px;
+        margin-left: 2px;
+        margin-right: 0;
+    }
+
+    .menu-btn {
+        display: block;
+
+        border: none;
+        background: none;
+
+        font-size: 28px;
+        cursor: pointer;
+
+        margin-left: auto;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .footer {
+        margin-top: 30px;
+    }
+
+    .footer-content {
+        width: 90%;
+
+        padding: 30px 0;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 25px;
+    }
+
+    .footer-content > div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-content h2 {
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+
+    .footer-content h3 {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+
+    .footer-content p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .footer-content a {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .social-media img {
+        height: 22px;
+        width: 22px;
+        margin: 5px;
+    }
+
+    .copyright p {
+        font-size: 11px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .header {
+        padding: 10px 4%;
+    }
+
+    .logo1 {
+        height: 45px;
+        width: 45px;
+    }
+
+    .logo {
+        font-size: 19px;
+    }
+
+    .logo span {
+        font-size: 12px;
+    }
+
+    .menu-btn {
+        font-size: 26px;
+    }
+
+    .footer-content {
+        width: 92%;
+        padding: 25px 0;
+        gap: 20px;
+    }
+
+    .footer-content h2 {
+        font-size: 20px;
+    }
+
+    .footer-content h3 {
+        font-size: 17px;
+    }
+
+    .footer-content p,
+    .footer-content a {
+        font-size: 13px;
+    }
+
+    .social-media img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .copyright p {
+        font-size: 10px;
+    }
 }
