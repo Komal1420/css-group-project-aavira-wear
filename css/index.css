@@ -86,41 +86,23 @@
 .category-info button:hover {
     background-color: #555;
 }
-
-
-/* =========================================
-   TABLET RESPONSIVE
-   769px - 1024px
-========================================= */
-
 @media (max-width: 1024px) {
-
-    /* Main Image */
-
     .main-img {
         width: 100%;
         max-width: 100%;
         height: auto;
         margin-top: 20px;
     }
-
-
-    /* Hero */
-
     .hero {
         width: 100%;
         height: auto;
         min-height: 400px;
-
         padding: 40px 5%;
         box-sizing: border-box;
-
         display: flex;
         align-items: center;
         justify-content: space-between;
-
         gap: 25px;
-
         background-size: cover;
         background-position: center;
     }
@@ -140,10 +122,6 @@
         height: auto;
         object-fit: cover;
     }
-
-
-    /* Categories */
-
     .categories {
         width: 90%;
         margin: 40px auto;
@@ -185,10 +163,6 @@
     .category-info button {
         padding: 10px 22px;
     }
-
-
-    /* Navbar */
-
     .navbar {
         display: none;
     }
@@ -201,44 +175,24 @@
         cursor: pointer;
     }
 }
-
-
-/* =========================================
-   MOBILE RESPONSIVE
-   0px - 768px
-========================================= */
-
 @media (max-width: 768px) {
-
-    /* Main Image */
-
     .main-img {
         width: 100%;
         max-width: 100%;
         height: auto;
         margin-top: 15px;
     }
-
-
-    /* Hero */
-
     .hero {
         width: 100%;
         height: auto;
         min-height: 500px;
-
         padding: 35px 5%;
-
         box-sizing: border-box;
-
         display: flex;
         flex-direction: column;
-
         align-items: center;
         justify-content: center;
-
         gap: 25px;
-
         background-size: cover;
         background-position: center;
     }
@@ -260,10 +214,6 @@
         height: auto;
         object-fit: cover;
     }
-
-
-    /* Categories */
-
     .categories {
         width: 90%;
         margin: 35px auto;
@@ -312,10 +262,6 @@
         padding: 10px 24px;
         font-size: 15px;
     }
-
-
-    /* Navbar */
-
     .navbar {
         display: none;
     }
@@ -329,10 +275,7 @@
     }
 }
 
-
 @media (max-width: 480px) {
-
-
     .main-img {
         width: 100%;
         height: auto;
