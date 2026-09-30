@@ -235,10 +235,6 @@ nav a.active {
         grid-template-columns: 1fr; 
     } 
  
-    .footer-content { 
-        grid-template-columns: 1fr; 
-        text-align: center; 
-    } 
  
     .page-banner h1 { 
         font-size: 32px; 
