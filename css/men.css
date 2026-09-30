@@ -209,6 +209,19 @@ nav a.active {
     border-radius: 5px; 
     transition: 0.3s; 
 } 
+footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer .footer {
+    width: 100%;
+    margin: 0;
+    max-width: none;
+    box-sizing: border-box;
+}
 @media (max-width: 900px) { 
  
     .products { 
