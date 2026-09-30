@@ -165,12 +165,20 @@ hr {
 }
 
 .team-grid {
-    display: flex;
-    grid-template-columns: repeat(4, 1fr);
+    display:flex;
+    grid-template-row: repeat(4, 1fr);
     gap: 20px;
      justify-content: space-around;
+     flex-direction:row;
 }
 
+.profile-conatiner{
+    display:flex;
+    justify-content:center;
+    align-items:stretch;
+    gap:30px;
+    flex-wrap:wrap;
+}
 
 
 .profile-card {
@@ -180,6 +188,7 @@ hr {
     background-color: #fff;
      justify-content: space-between;
      width:250px;
+      flex-direction:row;
     
 }
 
